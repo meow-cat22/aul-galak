@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kategori Rambu Lalu Lintas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#ffecce;
+        }
+        
+        .navbar {
+            background-color: #ffecce;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .nav-item {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+        
+        .nav-item:hover {
+            background-color: #555;
+            color: #333;
+        }
+        
+        .larangan {
+            background-color: #ff4444;
+            color: #333;
+        }
+        
+        .perintah {
+            background-color: #2196F3;
+            color: #333;
+        }
+        
+        .peringatan {
+            background-color: #ffeb3b;
+            color: #333;
+        }
+        
+        .petunjuk {
+            background-color: green;
+            color: #333;
+        }
+        .content {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+                /* Gaya untuk kategori rambu lalu lintas larangan */
+        .traffic-signs {
+            padding: 20px; /* Ruang di dalam konten */
+            background-color: #f8f9f9; /* Warna latar belakang */
+            border-radius: 8px; /* Sudut membulat */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+        }
+
+        h2 {
+            color: #1d1d20; /* Warna teks untuk judul utama */
+            font-size: 24px; /* Ukuran font untuk judul utama */
+            margin-bottom: 10px; /* Jarak bawah */
+        }
+
+        h3 {
+            color: #1d1d20; /* Warna teks untuk sub-judul */
+            font-size: 20px; /* Ukuran font untuk sub-judul */
+            margin-top: 20px; /* Jarak atas */
+            margin-bottom: 10px; /* Jarak bawah */
+        }
+
+        .sign {
+            margin: 20px 0; /* Jarak antara setiap rambu */
+            text-align: center; /* Pusatkan teks dan gambar */
+        }
+
+        .sign img {
+            width: 100px; /* Atur lebar gambar sesuai kebutuhan */
+            height: auto; /* Memastikan tinggi gambar proporsional */
+            border-radius: 4px; /* Sudut membulat pada gambar */
+            transition: transform 0.3s; /* Efek transisi saat hover */
+        }
+
+        .sign img:hover {
+            transform: scale(1.1); /* Membesarkan gambar saat hover */
+        }
+
+        h4 {
+            color: #1d1d20; /* Warna teks untuk judul rambu */
+            font-size: 18px; /* Ukuran font untuk judul rambu */
+            margin: 10px 0; /* Jarak atas dan bawah */
+        }
+
+        p {
+            color: #58585b; /* Warna teks untuk deskripsi */
+            font-size: 14px; /* Ukuran font untuk deskripsi */
+            line-height: 1.5; /* Jarak antar baris */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="Home.html" class="nav-item larangan">Kembali</a>
+            <a href="larangan.html" class="nav-item larangan">Rambu Larangan</a>
+            <a href="perintah.html" class="nav-item perintah">Rambu Perintah</a>
+            <a href="#peringatan" class="nav-item peringatan">Rambu Peringatan</a>
+            <a href="petunjuk.html" class="nav-item petunjuk">Rambu petunjuk</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1>Kategori Rambu Lalu Lintas</h1>
+        <div class="traffic-signs">
+            <h2>Kategori Rambu Lalu Lintas Peringatan</h2>
+            <p>Rambu lalu lintas peringatan adalah tanda yang memberikan informasi kepada pengemudi tentang kondisi jalan yang berpotensi berbahaya. Rambu-rambu ini penting untuk meningkatkan kesadaran dan keselamatan di jalan.</p>
+
+            <h3>Contoh Rambu Peringatan</h3>
+            
+            <div class="sign">
+                <img src="path/to/curve-warning-sign.jpg" alt="Rambu Peringatan Belokan" />
+                <h4>Rambu Peringatan Belokan</h4>
+                <p>Rambu ini menunjukkan bahwa akan ada belokan tajam di depan.</p>
+            </div>
+
+            <div class="sign">
+                <img src="path/to/steep-slope-sign.jpg" alt="Rambu Peringatan Kemiringan" />
+                <h4>Rambu Peringatan Kemiringan</h4>
+                <p>Rambu ini menunjukkan bahwa jalan akan menurun atau mendaki dengan kemiringan yang tajam.</p>
+            </div>
+
+            <div class="sign">
+                <img src="path/to/pedestrian-crossing-sign.jpg" alt="Rambu Peringatan Penyeberangan Pejalan Kaki" />
+                <h4>Rambu Peringatan Penyeberangan Pejalan Kaki</h4>
+                <p>Rambu ini menunjukkan bahwa ada penyeberangan pejalan kaki di depan.</p>
+            </div>
+
+            <div class="sign">
+                <img src="path/to/roadwork-sign.jpg" alt="Rambu Peringatan Pekerjaan Jalan" />
+                <h4>Rambu Peringatan Pekerjaan Jalan</h4>
+                <p>Rambu ini menunjukkan bahwa ada pekerjaan jalan yang sedang berlangsung dan pengemudi harus berhati-hati.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
